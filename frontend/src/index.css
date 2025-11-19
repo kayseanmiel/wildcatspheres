@@ -1,0 +1,29 @@
+/* 1. LOAD THE FONT (This was missing!) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* 2. Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 3. Main Layout Settings */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  background-color: #934B4B; /* Matches your login background color */
+}
+
+/* 4. Apply the Font Globally */
+body {
+  font-family: 'Poppins', sans-serif; /* Forces the nice font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* 5. Fix Inputs and Buttons */
+input, button, select, textarea {
+  font-family: 'Poppins', sans-serif; /* Ensures inputs don't revert to Arial */
+}
